@@ -3,3 +3,34 @@ Online Hex Conveter
 
 Byte Array to hex
 #https://www.baeldung.com/java-byte-arrays-hex-strings
+
+Byte Array to hex
+
+//			String strhex = "";
+//			StringBuilder stb = new StringBuilder();
+//			System.out.println("bytes.length " + bytes.length);
+//			for (int i = 0; i < bytes.length; i++) {
+//				System.out.println("bytes[i] " + bytes[i]);
+//				int intstring = (int) bytes[i];
+//				System.out.println("intstring " + intstring);
+//				strhex = Integer.toHexString(intstring);
+//				System.out.println(strhex.length() + " strhex " + strhex);
+//				if (strhex.length() == 1) {
+//
+//					stb.append("0" + strhex.toUpperCase() + " ");
+//
+//				} else if (strhex.length() > 2) {
+//
+//					strhex = strhex.substring(6);
+//
+//					stb.append(strhex.toUpperCase() + " ");
+//				} else {
+//					stb.append(strhex.toUpperCase() + " ");
+//
+//				}
+//				System.out.println("stb " + stb);
+//			}
+           // System.out.println("hexStringBuffer "+hexStringBuffer);
+           
+           
+           
