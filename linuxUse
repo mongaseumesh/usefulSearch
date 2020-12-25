@@ -1,0 +1,11 @@
+chek posrt config
+https://www.cyberciti.biz/faq/how-to-check-open-ports-in-linux-using-the-cli/
+
+# sudo netstat -tulpn | grep LISTEN
+# sudo ss -tulpn
+# sudo lsof -i -P -n | grep LISTEN
+
+$ sudo nmap -sT -O localhost
+$ sudo nmap -sU -O 192.168.2.254 ##[ list open UDP ports ]##
+$ sudo nmap -sT -O 127.0.0.1 ##[ list open TCP ports ]##
+$ sudo nmap -sTU -O 192.168.2.24
