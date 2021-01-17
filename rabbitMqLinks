@@ -1,0 +1,7 @@
+
+install:---
+https://computingforgeeks.com/how-to-install-latest-rabbitmq-server-on-ubuntu-linux/
+
+uninstall:----
+sudo apt-get remove --auto-remove rabbitmq-server
+sudo apt-get purge --auto-remove rabbitmq-server
